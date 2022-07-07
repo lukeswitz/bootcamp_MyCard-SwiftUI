@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB47800028774294001BF14F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB477FFF28774294001BF14F /* InfoView.swift */; };
+		EB47800128774294001BF14F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB477FFF28774294001BF14F /* InfoView.swift */; };
 		EB48D251287734D700AA846B /* LukeCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D241287734D700AA846B /* LukeCardApp.swift */; };
 		EB48D252287734D700AA846B /* LukeCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D241287734D700AA846B /* LukeCardApp.swift */; };
 		EB48D253287734D700AA846B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D242287734D700AA846B /* ContentView.swift */; };
 		EB48D254287734D700AA846B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D242287734D700AA846B /* ContentView.swift */; };
 		EB48D255287734D700AA846B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB48D243287734D700AA846B /* Assets.xcassets */; };
 		EB48D256287734D700AA846B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB48D243287734D700AA846B /* Assets.xcassets */; };
+		EB48D261287736DA00AA846B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB48D260287736DA00AA846B /* Pacifico-Regular.ttf */; };
+		EB48D262287736DA00AA846B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB48D260287736DA00AA846B /* Pacifico-Regular.ttf */; };
+		EB48D2642877372B00AA846B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB48D2632877372B00AA846B /* LaunchScreen.storyboard */; };
+		EB48D2652877372B00AA846B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB48D2632877372B00AA846B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB477FFF28774294001BF14F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		EB48D241287734D700AA846B /* LukeCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LukeCardApp.swift; sourceTree = "<group>"; };
 		EB48D242287734D700AA846B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB48D243287734D700AA846B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB48D248287734D700AA846B /* LukeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LukeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB48D24E287734D700AA846B /* LukeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LukeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB48D250287734D700AA846B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EB48D260287736DA00AA846B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		EB48D2632877372B00AA846B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB48D2662877383B00AA846B /* LukeCard--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LukeCard--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,10 @@
 		EB48D23B287734D700AA846B = {
 			isa = PBXGroup;
 			children = (
+				EB477FFF28774294001BF14F /* InfoView.swift */,
+				EB48D2662877383B00AA846B /* LukeCard--iOS--Info.plist */,
+				EB48D2632877372B00AA846B /* LaunchScreen.storyboard */,
+				EB48D25F287736CC00AA846B /* Fonts */,
 				EB48D240287734D700AA846B /* Shared */,
 				EB48D24F287734D700AA846B /* macOS */,
 				EB48D249287734D700AA846B /* Products */,
@@ -76,6 +90,14 @@
 				EB48D250287734D700AA846B /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		EB48D25F287736CC00AA846B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EB48D260287736DA00AA846B /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +179,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB48D2642877372B00AA846B /* LaunchScreen.storyboard in Resources */,
 				EB48D255287734D700AA846B /* Assets.xcassets in Resources */,
+				EB48D261287736DA00AA846B /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB48D2652877372B00AA846B /* LaunchScreen.storyboard in Resources */,
 				EB48D256287734D700AA846B /* Assets.xcassets in Resources */,
+				EB48D262287736DA00AA846B /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB48D253287734D700AA846B /* ContentView.swift in Sources */,
+				EB47800028774294001BF14F /* InfoView.swift in Sources */,
 				EB48D251287734D700AA846B /* LukeCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB48D254287734D700AA846B /* ContentView.swift in Sources */,
+				EB47800128774294001BF14F /* InfoView.swift in Sources */,
 				EB48D252287734D700AA846B /* LukeCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,9 +340,10 @@
 				DEVELOPMENT_TEAM = A64B5QV548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "LukeCard--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -342,9 +371,10 @@
 				DEVELOPMENT_TEAM = A64B5QV548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "LukeCard--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
